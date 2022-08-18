@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "../styles/Details.module.css";
 import star from "../public/star.svg";
 import Head from "next/head";
+import Link from "next/link";
 
 import { useRouter } from "next/router";
 
@@ -72,6 +73,9 @@ const MovieDetails = ({ movie }) => {
               </span>
               <span className={styles.score}>{movie.rt_score}</span>/100
             </p>
+            <Link href="/">
+              <a className="btn">Watch Trailer</a>
+            </Link>
           </div>
         </section>
       </main>
