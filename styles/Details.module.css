@@ -1,0 +1,53 @@
+.back {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.back span {
+    transition: color 350ms ease-in;
+}
+
+.back span:focus,
+.back span:hover {
+    color: #473534;
+}
+
+.movie-details {
+    background-color: white;
+    padding: 2rem;
+    border: 2px solid #473534;
+}
+
+.movie-details > * + * {
+    margin-top: 1rem;
+}
+
+.movie-details .info,
+.movie-details .director {
+    font-size: 0.8rem;
+    color: #73787B;
+}
+
+.movie-details .title {
+    font-size: 1.953rem;
+}
+
+.movie-details .rating {
+    display: flex;
+    align-items: center;
+}
+
+.movie-details .rating .score {
+    font-size: 1.25rem;
+    font-size: 1.563rem;
+}
+
+@media(min-width: 50em) {
+    .movie-details {
+        width: 60%; 
+        margin-left: auto; 
+        margin-top: -10%;
+    }
+}

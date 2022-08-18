@@ -1,0 +1,17 @@
+.primary-footer {
+    padding: 2rem 0;
+    border-top: 2px solid #473534;
+}
+
+.primary-footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(min-width: 50em) {
+    .primary-footer {
+        background-color: #82C1EC;
+    }
+}
