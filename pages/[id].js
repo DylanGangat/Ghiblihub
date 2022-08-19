@@ -31,11 +31,7 @@ export const getStaticProps = async context => {
 };
 
 const MovieDetails = ({ movie }) => {
-  // console.log(movie);
-
   const banner = movie.movie_banner;
-  // console.log(banner);
-
   const router = useRouter();
 
   return (
@@ -49,7 +45,7 @@ const MovieDetails = ({ movie }) => {
           <p className={styles.back} onClick={() => router.push("/")}>
             <span>{"< "} Back</span>
           </p>
-          <div
+          <div className={styles.banner}
             style={{
               backgroundImage: `url(${banner})`,
               backgroundSize: "cover",

@@ -12,17 +12,6 @@ export const getStaticProps = async () => {
   };
 };
 
-// const answers = async () => {
-//   const response = await fetch("https://ghibliapi.herokuapp.com/films");
-//   const data = await response.json();
-
-//   console.log(data[0]);
-//   const images = data.map(item => console.log(item.image));
-//   console.log(images);
-// };
-
-// answers();
-
 export default function Home({ movies }) {
   return (
     <>
@@ -32,7 +21,6 @@ export default function Home({ movies }) {
           name="description"
           content="Home page display all of Studio Ghibli movies"
         />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <main className="container">

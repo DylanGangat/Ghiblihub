@@ -14,7 +14,7 @@ const Footer = () => {
             alt="studio ghibli logo"
           />
         </Link>
-        <p>2022 Ghiblihub. All Rights Reserved</p>
+        <p>&#169; 2022 Ghiblihub. All Rights Reserved.</p>
       </div>
     </footer>
   );
