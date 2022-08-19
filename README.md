@@ -1,34 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ghiblihub
 
-## Getting Started
+## Screenshots 📷
 
-First, run the development server:
+### Home page
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Mobile Design
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Mobile Design](./public/designs/ghiblihub-home-mobile-design.png)
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Desktop Design
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+![Desktop Design](./public/designs/ghiblihub-home-desktop-design.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+### Details page
 
-To learn more about Next.js, take a look at the following resources:
+Mobile Design
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![Mobile Design](./public/designs/ghiblihub-details-mobile-design.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Desktop Design
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![Desktop Design](./public/designs/ghiblihub-details-desktop-design.png)
