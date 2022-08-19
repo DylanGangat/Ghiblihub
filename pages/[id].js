@@ -6,6 +6,7 @@ import Link from "next/link";
 
 import { useRouter } from "next/router";
 
+// Makes use of the ids to figure out how many pages/routes must be created depending on the data being fetched.
 export const getStaticPaths = async () => {
   const response = await fetch("https://ghibliapi.herokuapp.com/films");
   const data = await response.json();
@@ -20,6 +21,7 @@ export const getStaticPaths = async () => {
   };
 };
 
+// Calls this function for each id and we use the context parameter which you are able to use as its passed as the paths property from getStatisPaths
 export const getStaticProps = async context => {
   const id = context.params.id;
   const response = await fetch(`https://ghibliapi.herokuapp.com/films/${id}`);

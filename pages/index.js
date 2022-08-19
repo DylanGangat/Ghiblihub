@@ -29,7 +29,7 @@ export default function Home({ movies }) {
           <div className={styles["movie-grid"]}>
             {movies &&
               movies.map(movie => (
-                <Link href={`${movie.id}`} key={movie.id}>
+                <Link href={movie.id} key={movie.id}>
                   <div className={styles["movie-card"]}>
                     <h3 className={styles["visually-hidden"]}>{movie.title}</h3>
                     <Image
